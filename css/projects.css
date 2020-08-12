@@ -1,0 +1,614 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+/*
+.nav{
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    background-color: lightgray;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.menu{
+    margin: 0 30px 0 0;
+    margin-right: 75px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    line-height: 70px;
+}
+*/
+span{
+    color: aqua;
+}
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+#toggle{
+    display: none;
+}
+a:hover{
+    color: #9e9e6d;   
+    text-decoration: none;
+}
+
+.fut1 a{
+        text-decoration: none;
+        color: lightblue;
+    }
+
+@media only screen and (min-width: 1200px){
+.nav{
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    background-color: lightgray;
+/*    font-family: 'Yanone Kaffeesatz', sans-serif;*/
+}
+.menu{
+    margin: 0 30px 0 0;
+    margin-right: 75px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    line-height: 70px;
+}
+a:hover{
+    color: #9e9e6d;   
+    text-decoration: none;
+    }
+
+    .logo{
+    float:left;
+    padding-left: 100px;
+    height: 60px;
+    width: 100px;
+    padding-top: 5px;
+}
+    h1{   
+    margin-top: 50px;
+    padding-left: 100px;
+    color: #4b4e51;
+    font-family: sans-serif;
+} 
+
+.op{
+    padding-left: 100px;
+    color: skyblue;
+    font-family: sans-serif;
+    }
+
+h3{
+    padding-left: 100px;
+    color: dimgray;
+    font-family: sans-serif;
+    }    
+    
+ul{
+        margin-left: 75px;
+        margin-bottom: 1rem;
+        color: dimgray;
+    }    
+    
+.name{
+        color: #4b4e51;
+        font-size: 25px;
+    }    
+    
+.two{
+        float: right;
+        margin-top: -325px;
+        margin-right: 100px;
+    }    
+    
+.loc{
+        padding-left: 0px;
+        color: dimgray;
+    }
+    
+p{
+        color: dimgray;
+    }
+    
+.cp{
+    padding-left: 100px;
+    color: skyblue;
+    font-family: sans-serif; 
+    }    
+    
+.three{
+        margin-top: 100px;
+    }
+    
+.four{
+        float: right;
+        margin-top: -266px;
+        margin-right: 140px;
+    }    
+
+        footer{
+        background-color: #2a303a;
+        margin-top: 100px;
+        height: 50px;
+        padding: 25px;
+    }    
+    
+    .fut{
+        color: white;
+        margin-left: 75px;
+/*        padding-top: 20px;*/
+    }
+    
+    .fut1{
+        text-align: right;
+        margin-right: 75px;
+        color: white;
+        margin-top: -30px;
+    }
+}
+
+/*Laptop Devices*/
+@media only screen and (min-width: 992px){
+.nav{
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    background-color: lightgray;
+/*    font-family: 'Yanone Kaffeesatz', sans-serif;*/
+}
+
+    .menu{
+    margin: 0 30px 0 0;
+    margin-right: 75px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    line-height: 70px;
+}
+a:hover{
+    color: #9e9e6d;   
+    text-decoration: none;
+    }
+    
+    .logo{
+    float:left;
+    padding-left: 100px;
+    height: 60px;
+    width: 100px;
+    padding-top: 5px;
+}
+    h1{   
+    margin-top: 50px;
+    padding-left: 100px;
+    color: #4b4e51;
+    font-family: sans-serif;
+} 
+
+.op{
+    padding-left: 100px;
+    color: skyblue;
+    font-family: sans-serif;
+    }
+
+h3{
+    padding-left: 100px;
+    color: dimgray;
+    font-family: sans-serif;
+    }    
+    
+ul{
+        margin-left: 75px;
+        margin-bottom: 1rem;
+        color: dimgray;
+    }    
+    
+.name{
+        color: #4b4e51;
+        font-size: 25px;
+    }    
+    
+.two{
+        float: right;
+        margin-top: -325px;
+        margin-right: 100px;
+    }    
+    
+.loc{
+        padding-left: 0px;
+        color: dimgray;
+    }
+    
+p{
+        color: dimgray;
+    }
+    
+.cp{
+    padding-left: 100px;
+    color: skyblue;
+    font-family: sans-serif; 
+    }    
+    
+.three{
+        margin-top: 100px;
+    }
+    
+.four{
+        float: right;
+        margin-top: -266px;
+        margin-right: 140px;
+    }    
+
+    footer{
+        background-color: #2a303a;
+        margin-top: 100px;
+        height: 50px;
+        padding: 25px;
+    }    
+    
+    .fut{
+        color: white;
+        margin-left: 75px;
+/*        padding-top: 20px;*/
+    }
+    
+    .fut1{
+        text-align: right;
+        margin-right: 75px;
+        color: white;
+        margin-top: -30px;
+    }
+
+}
+
+/*Tablet Devices*/
+    @media only screen and (min-width: 768px){        
+.nav{
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    background-color: lightgray;
+/*    font-family: 'Yanone Kaffeesatz', sans-serif;*/
+}
+
+    .menu{
+    margin: 0 30px 0 0;
+    margin-right: 75px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding-right: 13px;
+}        
+        
+a:hover{
+    color: #9e9e6d;   
+    text-decoration: none;
+    }
+        
+    .logo{
+    float:left;
+    padding-left: 100px;
+    height: 60px;
+    width: 100px;
+    padding-top: 5px;
+        
+}
+    h1{   
+    margin-top: 50px;
+    padding-left: 100px;
+    color: #4b4e51;
+    font-family: sans-serif;
+} 
+
+.op{
+    padding-left: 100px;
+    color: skyblue;
+    font-family: sans-serif;
+    }
+
+h3{
+    padding-left: 100px;
+    color: dimgray;
+    font-family: sans-serif;
+    }    
+    
+ul{
+        margin-left: 75px;
+        margin-bottom: 1rem;
+        color: dimgray;
+    }    
+    
+.name{
+        color: #4b4e51;
+        font-size: 25px;
+    }    
+    
+.two .name{
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+        
+.two .loc{
+        margin-left: 100px;
+    padding-left: 0px;
+        color: dimgray;
+    }    
+        
+.two p{
+    margin-left: 100px;
+        color: dimgray;
+    }
+    
+.cp{
+    padding-left: 100px;
+    color: skyblue;
+    font-family: sans-serif; 
+    }    
+    
+.three{
+        margin-top: 100px;
+    }
+    
+.four .name{
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+        
+.four .loc{
+        margin-left: 100px;
+    padding-left: 0px;
+        color: dimgray;
+    }    
+        
+.four p{
+    margin-left: 100px;
+        color: dimgray;
+    }
+        
+        footer{
+        background-color: #2a303a;
+        margin-top: 100px;
+        height: 50px;
+        padding: 25px;
+        font-size: 13.5px;
+    }    
+    
+    .fut{
+        color: white;
+        margin-left: 75px;
+/*        padding-top: 20px;*/
+    }
+    
+    .fut1{
+        text-align: right;
+        margin-right: 75px;
+        color: white;
+        margin-top: -30px;
+        float: right;
+    }        
+
+}
+
+/*Mobile Devices*/
+@media only screen and (max-width: 767px){
+.nav{
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    background-color: lightgray;
+/*    font-family: 'Yanone Kaffeesatz', sans-serif;*/
+}
+
+.menu{
+    margin: 0 30px 0 0;
+    margin-right: 75px;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        display: none;
+        background-color: #4e5354;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    line-height: 70px;
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+}
+a:hover{
+    color: #9e9e6d;   
+    text-decoration: none;
+    }
+    
+.logo{
+    height: 60px;
+    width: 100px;
+    padding-top: 5px;
+}
+
+    label{
+        display: block;
+        cursor: pointer;
+        color: #4e5354;
+    }
+    
+    #toggle:checked + .menu{
+        display: block;
+    }
+
+h1{   
+    margin-top: 50px;
+    padding-left: 100px;
+    color: #4b4e51;
+    font-family: sans-serif;
+} 
+
+.op{
+    padding-left: 100px;
+    color: skyblue;
+    font-family: sans-serif;
+    }
+
+h3{
+    padding-left: 100px;
+    color: dimgray;
+    font-family: sans-serif;
+    }    
+    
+ul{
+        margin-left: 75px;
+        margin-bottom: 1rem;
+        color: dimgray;
+    }    
+    
+.name{
+        color: #4b4e51;
+        font-size: 25px;
+    }    
+    
+.two{
+        margin-top: 50px;
+        margin-left: 100px;
+    }    
+    
+.loc{
+        padding-left: 0px;
+        color: dimgray;
+    }
+    
+p{
+        color: dimgray;
+    }
+    
+.cp{
+    padding-left: 100px;
+    color: skyblue;
+    font-family: sans-serif; 
+    }    
+    
+.three{
+        margin-top: 100px;
+    }
+    
+.four{
+        margin-top: 50px;
+        margin-left: 100px;
+    }    
+    
+    footer{
+        background-color: #2a303a;
+        margin-top: 50px;
+        height: 80px;
+        padding: 25px;
+    }    
+    
+    .fut{
+        color: white;
+        text-align: center;
+    }
+    
+    .fut1{
+        text-align: center;
+        color: white;
+    } 
+}
+
+/*Small Mobile Devices*/
+@media only screen and (max-width: 380px){
+h1{   
+    margin-top: 50px;
+    padding-left: 50px;
+    color: #4b4e51;
+    font-family: sans-serif;
+} 
+
+.op{
+    padding-left: 50px;
+    color: skyblue;
+    font-family: sans-serif;
+    }
+
+h3{
+    padding-left: 50px;
+    color: dimgray;
+    font-family: sans-serif;
+    }    
+    
+ul{
+        margin-left: 30px;
+        margin-bottom: 1rem;
+        color: dimgray;
+        font-size: 12px;
+    }    
+    
+.name{
+        color: #4b4e51;
+        font-size: 25px;
+    }    
+    
+.two{
+        margin-top: 50px;
+        margin-left: 50px;
+    }    
+    
+.loc{
+        padding-left: 0px;
+        color: dimgray;
+    }
+    
+p{
+        color: dimgray;
+    font-size: 12px;
+    }
+    
+.cp{
+    padding-left: 50px;
+    color: skyblue;
+    font-family: sans-serif; 
+    }    
+    
+.three{
+        margin-top: 100px;
+    }
+    
+.four{
+        margin-top: 60px;
+        margin-left: 50px;
+    }    
+    
+   footer{
+        background-color: #2a303a;
+        margin-top: 50px;
+        height: 80px;
+        padding: 25px;
+        font-size: 12px;
+    }    
+    
+    .fut{
+        color: white;
+        text-align: center;
+    }
+    
+    .fut1{
+        text-align: center;
+        color: white;
+    }
+}
